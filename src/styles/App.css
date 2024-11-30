@@ -1,1 +1,65 @@
+body{
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: tan;
+    height: 100vh;
+}
+.container{
+    padding: 10px;
+    width: 500px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: bisque;
+}
+.header{
 
+}
+.add-task-section{
+    padding: 5px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+#input-field{
+    width: 300px;
+    padding: 8px 10px;
+}
+#add-btn{
+    padding: 8px 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: tan;
+    font-weight: bold;
+}
+
+.tasks-container{
+    background-color: tan;
+    
+}
+.tasks-container ul{
+    width: 450px;
+    margin: 0;
+    padding: 10px;
+}
+.tasks-container li{
+    margin: 5px;
+    padding: 5px;
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+    
+}
+
+#delete-btn{
+    padding: 6px 15px;
+    background-color: tan;
+    cursor: pointer;
+}
